@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>function type js</title>
+</head>
+<body>
+	<script>
+	(function(){
+		let msg=()=>{
+			console.log('ok');
+		}
+		msg();
+		//objet
+		let x=({
+			test:"objet de la propriété",
+			help:()=>{
+				console.log('Un peu comme vue.js');
+			},
+			tab:['Html','css','js']
+		});
+		x.help();
+		console.log(x.test+" "+typeof(x)+"\n"+x.tab[2]);
+		
+
+	})();
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "short_name": "Giusmili",
+  "name": "Projet sw",
+  "icons": [
+    {
+      "src": "/image/terra-grand.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/image/terre.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "theme_color": "#3367D6"
+}

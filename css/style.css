@@ -1,0 +1,42 @@
+/*la mise en forme less*/
+body {
+  font: 16px 'Josefin Sans', sans-serif;
+  font-size-adjust: 0.5;
+  margin: 0;
+}
+h1,h2 {
+  line-height: 45px;
+  text-align: center;
+  font-weight: 100;
+  color: #0C3D5F;
+}
+ul{
+	padding:5px;
+	width: 320px;
+	list-style: none;
+	margin:5px auto;
+}
+h1::before{
+	content: '\f004';
+	font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands';
+	color: rgba(0,0,200,0.5);
+	margin-right: 3px;
+}
+ul li:nth-child(2n+1)::before{
+	content: '\f420';
+	font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands';
+	color: rgba(0,0,200,0.5);
+	margin-right: 3px;
+}
+ul li:nth-child(2n+2)::before{
+	content: '\f39f';
+	font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands';
+	color: rgba(0,0,200,0.5);
+	margin-right: 3px;
+}
+h2::before{
+	content: '\f015';
+	font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands';
+	color: rgba(0,0,200,0.5);
+	margin-right: 3px;
+}
