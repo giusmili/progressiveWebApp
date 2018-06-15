@@ -33,7 +33,16 @@
   });
 }
 
-
+self.addEventListener('install', function(event) {
+  var offlinePage = new Request('index.html');
+  event.waitUntil(
+    fetch(offlinePage).then(function(response) {
+      return caches.open('pwabuilder-offline').then(function(cache) {
+        console.log('[PWA Builder] Cached offline page during Install'+ response.url);
+        return cache.put(offlinePage, response);
+      });
+  }));
+});
 
 
 //end
