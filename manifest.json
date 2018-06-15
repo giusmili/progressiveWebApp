@@ -1,30 +1,30 @@
 {
-  "short_name": "Giusmili",
-  "name": "Projet sw",
-  "icons": [
-    {
-      "src": "image/icone-tweet-little.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "image/icone-tweet.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
-     {
-      "src": "image/android-launchericon-48-48.png",
-      "type": "image/png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "image/android-launchericon-72-72.png",
-      "type": "image/png",
-      "sizes": "72x72"
-    }
-  ],
-  "start_url": "index.html",
-  "background_color": "#fafafa",
-  "display": "standalone",
-  "theme_color": "#3367D6"
+    "short_name": "Giusmili",
+    "name": "Projet sw",
+    "icons": [
+        {
+            "src": "/images/image/icone-tweet-little.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/image/icone-tweet.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/images/image/android-launchericon-48-48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/images/image/android-launchericon-72-72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        }
+    ],
+    "start_url": "https://giusmili.github.io/progressiveWebApp/index.html",
+    "background_color": "#fafafa",
+    "display": "standalone",
+    "theme_color": "#3367D6"
 }
